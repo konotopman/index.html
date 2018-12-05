@@ -1,0 +1,289 @@
+/*
+Template Name: werandom
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+@media (max-width: 1199px) {
+    header.main-header{
+        min-height: 650px;
+    }
+    .mid-text h3 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .about-bgbanner {
+        height: 350px;
+    }
+    .service-bgbanner{
+        height: 650px;
+    }
+    .testimonial-bgbanner{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-attachment: inherit;
+    }
+    .client-says > p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 991px) {
+    header.main-header {
+        min-height: 500px;
+    }
+    #overview-aside-nav {
+        margin-top: -20.6875em;
+    }
+    .header-text-inner{
+        padding: 20px;
+    }
+    .header-text p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+    .header-text h1 {
+        font-size: 34px;
+        letter-spacing: 1px;
+    }
+    .header-text-inner h4{
+        font-size: 14px;
+    }
+    .header-text .btn-primary {
+        font-size: 12px;
+        margin-right: 0;
+        padding: 10px 15px;
+    }
+    .section-heading h2 {
+        font-size: 26px;
+        padding: 0 80px;
+        margin-bottom: 5px;
+    }
+    .section-heading > p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+    section {
+        padding: 100px 0 0;
+    }
+    .section-heading {
+        margin-bottom: 100px;
+    }
+    .marginT100{
+        margin-top: 80px;
+    }
+    .about-img img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 70%;
+    }
+    .mid-text h3 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .about-bgbanner {
+        height: 250px;
+    }
+    .text h3 {
+        font-size: 20px;
+    }
+    .team-social-icon a {
+        font-size: 13px;
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+    }
+    .service-item > a, .social-contact > a{
+        font-size: 30px;
+        height: 80px;
+        line-height: 80px;
+        width: 80px;
+    }
+    .testimonial-bgbanner {
+        background-attachment: inherit;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }.social-contact > h3 {
+        font-size: 18px;
+    }
+    .social-contact > h5 {
+        font-size: 12px;
+    }
+    .address-box {
+        padding: 30px;
+    }
+    .address-list > li {
+        font-size: 13px;
+    }
+    .social-bgbanner {
+        height: 750px;
+    }
+    .buttons .btn{
+        font-size: 12px;
+    }
+    .contact-form {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 767px) {
+    #overview-aside-nav {
+        margin-top: -5.6875em;
+    }
+    header.main-header {
+        min-height: 400px;
+    }
+    .header-text-inner {
+        width: 45%;
+    }
+    .header-text h1 {
+        font-size: 28px;
+    }
+    .header-text-inner h4 {
+        font-size: 13px;
+    }
+    .mid-text h3 {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .service-bgbanner {
+        height: 880px;
+    }
+    .service-box li:nth-child(n+1) {
+        margin-bottom: 50px;
+    }
+    .service-box li:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+    .address-box{
+        margin-bottom: 20px;
+    }
+    .social-bgbanner {
+        height: 1000px;
+    }
+    .footer-content > p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 500px) {
+    .width-100{
+        width:100%;
+    }
+    header.main-header {
+        background: rgba(0, 0, 0, 0) url("../images/banner.jpg") no-repeat scroll right center / cover ;
+    }
+    .header-text-inner {
+        width: 70%;
+        left: 15%;
+       background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    }
+    .section-heading h2 {
+        font-size: 26px;
+        margin-bottom: 5px;
+        padding: 0 60px;
+    }
+    .about-details > p, .about-details > h4{
+        text-align: center;
+    }
+    .team-member-box li{
+        margin-bottom: 40px;
+    }
+    .team-member-box li:last-child{
+        margin-bottom: 0px;
+    }
+    .service-bgbanner {
+        height: 950px;
+    }
+    .service-item > a, .social-contact > a {
+        font-size: 20px;
+        height: 60px;
+        line-height: 60px;
+        width: 60px;
+    }
+    .social-contact > h3 {
+        font-size: 14px;
+    }
+    .social-contact > h5 {
+        font-size: 11px;
+    }
+    .get-connected-box {
+        padding: 40px 0 0;
+    }
+    .social-bgbanner {
+        height: 900px;
+    }
+    .footer-content > h2 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 400px) {
+    .width100perc{
+        width:100%;
+    }
+    .width50perc{
+        width: 50%;
+    }
+    .header-text-inner {
+        left: 14%;
+        width: 90%;
+        top: 42%;
+    }
+    .section-heading h2 {
+        font-size: 22px;
+    }
+    .about-details > h4 {
+        font-size: 18px;
+    }
+    section {
+        padding: 80px 0 0;
+    }
+    .section-heading {
+        margin-bottom: 80px;
+    }
+    .marginT100{
+        margin-top: 70px;
+    }
+    .mid-text h3 {
+        font-size: 15px;
+    }
+    .service-bgbanner {
+        height: 1600px;
+    }
+    .service-box li:nth-child(n+1) {
+        margin-bottom: 50px;
+    }
+    .service-box li:nth-last-child(-n+1) {
+        margin-bottom: 0px;
+    }
+    .portfolio-filter button {
+        font-size: 12px;
+        margin: 0 14px 0 0;
+        padding: 0;
+    }
+    .portfolio-filter button:last-child{
+        margin: 0px;
+    }
+    .testimonial-bgbanner{
+        background: rgba(0, 0, 0, 0) url("../images/client-banner.jpg") no-repeat fixed left top / cover ;
+    }
+    .client-box {
+        background: rgba(255, 255, 255, 0.8);
+    }
+    .social-contact {
+        margin-bottom: 20px;
+    }
+    .address-list > li, .contact-deatils-form input, .contact-deatils-form textarea, .footer-content > p {
+        font-size: 11px;
+    }
+    .contact-form {
+        margin-top: 30px;
+    }
+    .social-bgbanner {
+        height: 980px;
+    }
+}
+
